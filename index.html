@@ -8,23 +8,31 @@
         <script src="bootstrap.min.js"></script>
         <script src="india_states_simplified_basic.js"></script>
         <script type="text/javascript" src ="final-color-range.json"></script>
+        <script type="text/javascript" src ="display.json"></script>
+        <head>
         <head>
             <title> Analysis of indian education.</title>
         </head>
         <body>
-            <h2>Analysis of india's education system. Please select different paremeter.</h2>
-            <div class="container">
-              <div id="map" class="col-md-8 map"></div>
+
+            <div class="container-fluid row">
+        <div class="col-md-12">
+            <h3>Analysis of india's education system. Please select different paremeter.</h3>
+        </div>
               <div class="col-md-4">
-                <div class="btn-group">
+                <div class="btn-group col-md-12">
                   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select the value
                     <span class="caret"></span>
                 </button>
-
                 <ul id="first-dropdown" class="dropdown-menu"></ul>
+                <h4 id="attribute-title" class="text-justify col-md-12"> teachers 100 per square meter</h4>
+                <p id="attribute-description" class="text-justify col-md-12">
+
+                </p>
             </div>
 
         </div>
+        <div id="map" class="col-md-8 map"></div>
     </div>
 
 

@@ -1,0 +1,103 @@
+display =
+  {
+    "students-pass-percentage":
+      {
+        "title":"students pass percentage",
+        "description": "Students who successfully pass their grades with respect to total number of students enrolled in school. It contributes to the literacy rate in a particular state. It  gives an overview of the states which have a scope of improvement on quality of education like providing good trained teachers, enough stuff to study (like books) etc."
+      },
+    "drinking-water-schools-percentage":
+      {
+        "title":"",
+        "description": ""
+       },
+    "#teachers-100-people":
+      {
+        "title":"",
+        "description": ""
+      },
+    "literacy-rate":
+      {
+        "title":"",
+        "description": ""
+      },
+    "#students-100-people":
+      {
+      "title":"",
+      "description": ""
+      },
+    "full-time-teachers-percentage":
+      {
+        "title":"",
+        "description": ""
+      },
+    "pucca-building-type-schools-percentage":
+      {
+        "title":"",
+        "description": ""
+      },
+    "toilet-facility-schools-percentage":
+      {
+        "title":"",
+        "description": ""
+      },
+    "Trained-teachers-percentage":
+      {
+        "title":"",
+        "description": ""
+      },
+    "play-ground-school-percentage":
+      {
+        "title":"",
+        "description": ""
+      },
+    "#schools-100-people":
+      {
+        "title":"",
+        "description": ""
+      },
+    "hand-wash-facility-percentage":
+      {
+      "title":"",
+      "description": ""
+      },
+    "govt-schools-percentage":
+      {
+        "title":"",
+        "description": ""
+      },
+    "mid-day-meal-school-percentage":
+      {
+        "title":"",
+        "description": ""
+      },
+    "computer-availability-schools-percentage":
+      {
+        "title":"",
+        "description": ""
+      },
+    "boundary-wall-schools-percentage":
+    {
+      "title":"",
+      "description": ""
+    },
+    "School-drop-out-percentage":
+      {
+        "title":2) Schools drop out percentage",
+        "description": "Students who discontinue their studies due to some reasons. It does not include students who actually fail in their grades. It may connect to the quality of life in that region."
+      },
+    "electricity-connection-school-percentage":
+      {
+        "title":"",
+        "description": ""
+      },
+    "text-books-received-schools-percentage":
+      {
+        "title":"",
+        "description": ""
+      },
+    "private-schools-percentage":
+      {
+        "title":"",
+        "description": ""
+      }
+  }

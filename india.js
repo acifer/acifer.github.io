@@ -85,7 +85,7 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
     this._div.innerHTML = '<h4>Result of <em>'+ attribute_name +' </em></h4>' +  (props ?
-        '<b>' + props.NAME_1 + '</b><br />' + props[attribute_name].value.toFixed(2) + ' people / mi<sup>2</sup>'
+        '<b>' + props.NAME_1 + '</b><br />' + props[attribute_name].value.toFixed(2)
         : 'Hover over a state');
 };
 info.addTo(map);
@@ -134,7 +134,9 @@ legend.addTo(map)
     // });
     //L.geoJson(indian_states, {style: style2}).addTo(map);
     $('ul.dropdown-menu').on('click', function (e) {
-      attribute_name =   e.target.id;//schools-100-people'
+      attribute_name =  e.target.id;//schools-100-people'
+      $("#attribute-title").text(display[ attribute_name].title);
+      $("#attribute-description").text(display[ attribute_name].description);
       n.setStyle(style2);
       legend.update();
     })

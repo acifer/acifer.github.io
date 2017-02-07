@@ -12,14 +12,11 @@ window.onload = function() {
   adddropDown();
 
   var attribute_name = "#schools-100-people";
-  function zoomToFeature(e) {
-    map.fitBounds(e.target.getBounds());
-}
+
 function onEachFeature(feature, layer) {
     layer.on({
         mouseover: highlightFeature,
         mouseout: resetHighlight,
-        click: zoomToFeature
     });
 }
 function highlightFeature(e) {
@@ -67,13 +64,15 @@ function style2(feature) {
     };
 }
 var map = L.map('map',{
-    zoomControl: true,
-    doubleClickZoom: true,
+    scrollWheelZoom: false,
+    zoomControl: false,
+    doubleClickZoom: false,
     trackResize: true,
     boxZoom: false,
     dragging: false,
     scrollWheelZoom: false,
-}).setView([23.5,81.5], 4.4);
+    zoom: 5
+}).setView([22,81.5]);
 
 var n = L.geoJson(indian_states, {
        onEachFeature: onEachFeature

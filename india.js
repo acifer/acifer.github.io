@@ -1,11 +1,16 @@
 //var range = require('./final-color-range.json')
 window.onload = function() {
+  function updateDescription(){
+     $("#attribute-title").text(display[ attribute_name].title);
+     $("#attribute-description").text(display[ attribute_name].description);
+  }
   function adddropDown(){
     for(var property in range){
       $("ul#first-dropdown").append('<li><a id='+ property+' href="#">'+ property +' </a></li>');
     }
   };
   adddropDown();
+
   var attribute_name = "#schools-100-people";
   function zoomToFeature(e) {
     map.fitBounds(e.target.getBounds());
@@ -135,13 +140,12 @@ legend.addTo(map)
     //L.geoJson(indian_states, {style: style2}).addTo(map);
     $('ul.dropdown-menu').on('click', function (e) {
       attribute_name =  e.target.id;//schools-100-people'
-      $("#attribute-title").text(display[ attribute_name].title);
-      $("#attribute-description").text(display[ attribute_name].description);
+      updateDescription();
       n.setStyle(style2);
       legend.update();
     })
 
-
+    updateDescription();
     console.log('It got executed')
 
 

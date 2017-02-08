@@ -42,7 +42,8 @@ function resetHighlight(e) {
 
 }
   function getColor(value) {
-  return value <= range[attribute_name][0] ? '#fff5eb' :
+  return typeof value == "string" ? 'white':
+         value <= range[attribute_name][0] ? '#fff5b1' :
          value <= range[attribute_name][1] ? '#fee6ce' :
          value <= range[attribute_name][2] ? '#fdd0a2' :
          value <= range[attribute_name][3] ? '#fdae6b' :
@@ -88,10 +89,18 @@ info.onAdd = function (map) {
 
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
+  var stateData;
+    if(props && props[attribute_name].value){
+      stateData = props[attribute_name].value.toFixed(2)
+    }
+    else {
+      stateData = "No data to show"
+    }
     this._div.innerHTML = '<h4>Attribute selected  <em>'+ display[ attribute_name].title+' </em></h4>' +  (props ?
-        '<b>' + props.NAME_1 + '</b><br />' + props[attribute_name].value.toFixed(2)
+        '<b>' + props.NAME_1 + '</b><br />' + stateData
         : 'Hover over a state to see the detail');
-};
+  }
+
 info.addTo(map);
 
 var legend = L.control({position: 'bottomright'});

@@ -7,97 +7,98 @@ display =
       },
     "drinking-water-schools-percentage":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Drinking water facility",
+        "description": "Availability of drinking water in schools."
        },
     "#teachers-100-people":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Number of teachers",
+        "description": "No of teachers in each 100 people"
       },
     "literacy-rate":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Literacy rate",
+        "description": "Literacy in India is defined as the ability of a person who is above the age of seven and is able to read and write. t is the key for socio- economic progress in a State. "
       },
     "#students-100-people":
       {
-      "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-      "description": "Sed ut perspiciatis unde omnis iste natus error sit.Sed ut perspiciatis unde omnis iste natus error sit.Sed ut perspiciatis unde omnis iste natus error sit.Sed ut perspiciatis unde omnis iste natus error sit."
+      "title":"Number of students",
+      "description": "Number of students in each 100 people"
       },
     "full-time-teachers-percentage":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Number of full time teachers",
+        "description": "Full time teachers refer to the teachers who have no time constrained contracts and will continue to teach until their retirement. The teachers can be hired on contract basis. So, this measure helps in determining the stability of the teachers in a particular state. "
       },
     "pucca-building-type-schools-percentage":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Schools built of concrete",
+        "description": "Pucca (in Hindi) refers to the concrete buildings. So, this attribute refers to the schools percentage which are made of concrete."
       },
     "toilet-facility-schools-percentage":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Availability of toilets in schools",
+        "description": "Toilet facility's availability  in schools"
       },
     "Trained-teachers-percentage":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Number of trained taechers",
+        "description": "Trained teachers refers to the teachers with minimum required qualification like Msc (Master of Science), Med (Master of Education), Mphil (Master of Philosophy), Phd (Doctor of Philosophy) etc. Sometimes, schools are even deprived of the teacher with such qualifications. Trained teachers in turn affect the quality of education provided (like how good they are teaching stuff to the students)."
       },
     "play-ground-school-percentage":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Playground facility",
+        "description": "Schools having playgrounds facility"
       },
     "#schools-100-people":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Number of schools",
+        "description": "It shows the number of schools in each state which can acommodate atleast 100 students."
       },
     "hand-wash-facility-percentage":
       {
-      "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+      "title":"Schools having handwash facility",
+      "description": "Schools having hand wash facility."
       },
     "govt-schools-percentage":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Number of Government schools",
+        "description": "Schools run by Indian Govt which have less fees as compared to the private one, no English medium and have much more Govt involvement. "
       },
     "mid-day-meal-school-percentage":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Schools providing Mid-day meal facility",
+        "description": "Mid day meal refers to the facility started long back by  Indian Govt to provide cooked meals (usually lunch) to children in schools (Govt). It was an initiative taken to promote literacy based on free lunches for schoolchildren. This initiative was taken to overcome the fact that many children were just sent to work because the Parents did not have enough money to buy food for them. "
       },
     "computer-availability-schools-percentage":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Schools having computer facility",
+        "description": "Schools having enough computer facility for students."
       },
     "boundary-wall-schools-percentage":
     {
-      "title": " Sed ut perspiciatis unde omnis iste natus error sit. ",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+      "title":"Schools having boundary walls",
+      "description": "Presence of the proper boundary around the school’s area"
     },
     "School-drop-out-percentage":
       {
-        "title": "Schools drop out percentage",
+        "title":2) Schools drop out percentage",
         "description": "Students who discontinue their studies due to some reasons. It does not include students who actually fail in their grades. It may connect to the quality of life in that region."
       },
     "electricity-connection-school-percentage":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Presence of electricity facility.",
+        "description": "So, the facilities like toilet facility, drinking water facility, hand wash facility, electricity   connection and boundary wall are all basic facilities which are ideally expected to be present
+  in a school."
       },
     "text-books-received-schools-percentage":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Facility of providing text books  to schools",
+        "description": "Text books provided to students in schools. It encompasses Govt role in the sense that Govt ensures to take care of the funds to ensure that all students get study material. "
       },
     "private-schools-percentage":
       {
-        "title": "Sed ut perspiciatis unde omnis iste natus error sit.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "title":"Numbr of private schools",
+        "description": "rivate schools on the other hand are usually in English medium, higher fees and very less Government involvement. "
       }
   }

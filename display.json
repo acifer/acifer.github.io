@@ -3,27 +3,28 @@ display =
     "students-pass-percentage":
       {
         "title":"students pass percentage",
-        "description": "Students who successfully pass their grades with respect to total number of students enrolled in school. It contributes to the literacy rate in a particular state. It  gives an overview of the states which have a scope of improvement on quality of education like providing good trained teachers, enough stuff to study (like books) etc."
+        "description": "Students who successfully passed their grades with respect to total number of students enrolled in school. It contributes to the literacy rate in a particular state. It  gives an overview of the states which have a scope of improvement on quality of education like providing good trained teachers, good facilities etc."
       },
     "drinking-water-schools-percentage":
       {
         "title":"Drinking water facility",
-        "description": "Availability of drinking water in schools."
+        "description": "Availability of drinking water facility in schools when compared to total number of schools."
        },
     "#teachers-100-people":
       {
         "title":"Number of teachers",
-        "description": "No of teachers in each 100 people"
+        "description": "Number of students per 100 people of age between 3 and 20. People usually go to school between the age 3 and 20 and are the expected number of students. Because populated states would naturally tend to have higher values and so it is normalized."
       },
     "literacy-rate":
       {
         "title":"Literacy rate",
-        "description": "Literacy in India is defined as the ability of a person who is above the age of seven and is able to read and write. t is the key for socio- economic progress in a State. "
+        "description": "Literacy in India is defined as the ability of a person who is above the age of seven and is able to read and write. It is the key for socio- economic progress in a State. "
       },
     "#students-100-people":
       {
       "title":"Number of students",
-      "description": "Number of students in each 100 people"
+      "description": "Number of students per 100 people of age between 3 and 20. People usually go to school between the age 3 and 20 and are the expected number of students. Because populated states would naturally tend to have higher values and so it is normalized."
+
       },
     "full-time-teachers-percentage":
       {

@@ -72,7 +72,7 @@ var map = L.map('map',{
     dragging: false,
     scrollWheelZoom: false,
     zoom: 5
-}).setView([22,81.5]);
+}).setView([22,85.5]);
 
 var n = L.geoJson(indian_states, {
        onEachFeature: onEachFeature
@@ -88,9 +88,9 @@ info.onAdd = function (map) {
 
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
-    this._div.innerHTML = '<h4>Result of <em>'+ attribute_name +' </em></h4>' +  (props ?
+    this._div.innerHTML = '<h4>Attribute selected  <em>'+ display[ attribute_name].title+' </em></h4>' +  (props ?
         '<b>' + props.NAME_1 + '</b><br />' + props[attribute_name].value.toFixed(2)
-        : 'Hover over a state');
+        : 'Hover over a state to see the detail');
 };
 info.addTo(map);
 
@@ -118,34 +118,14 @@ legend.addTo(map)
         '<a href="http://openstreetmap.org">OpenStreetMap</a>';
 
 
- /*
-    var popup = L.popup();
-
-    function onMapClick(e) {
-        popup
-            .setLatLng(e.latlng)
-            .setContent("You clicked the map at " + e.latlng.toString())
-            .openOn(map);
-    }
-
-    map.on('click', onMapClick);
-
-
-    */
-
-    // map.on('click', function(e) {
-    //     alert(e.latlng); // e is an event object (MouseEvent in this case)
-    // });
-    //L.geoJson(indian_states, {style: style2}).addTo(map);
     $('ul.dropdown-menu').on('click', function (e) {
       attribute_name =  e.target.id;//schools-100-people'
       updateDescription();
       n.setStyle(style2);
       legend.update();
+      info.update();
     })
 
     updateDescription();
-    console.log('It got executed')
-
 
 }

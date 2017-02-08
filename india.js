@@ -5,8 +5,8 @@ window.onload = function() {
      $("#attribute-description").text(display[ attribute_name].description);
   }
   function adddropDown(){
-    for(var property in range){
-      $("ul#first-dropdown").append('<li><a id='+ property+' href="#">'+ property +' </a></li>');
+    for(var property in display){
+      $("ul#first-dropdown").append('<li><a id='+ property+' href="#">'+ display[property].title +' </a></li>');
     }
   };
   adddropDown();

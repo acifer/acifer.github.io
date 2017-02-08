@@ -13,12 +13,12 @@ display =
     "#teachers-100-people":
       {
         "title":"Number of teachers",
-        "description": "Number of students per 100 people of age between 3 and 20. People usually go to school between the age 3 and 20 and are the expected number of students. Because populated states would naturally tend to have higher values and so it is normalized."
+        "description": "Number of teachers per 100 people of age between 3 and 20. People usually go to school between the age 3 and 20 and are the expected number of students. Because populated states would naturally tend to have higher values and so it is normalized."
       },
     "literacy-rate":
       {
         "title":"Literacy rate",
-        "description": "Literacy in India is defined as the ability of a person who is above the age of seven and is able to read and write. It is the key for socio- economic progress in a State. "
+        "description": "Literacy in India is defined as the ability of a person who is above the age of 7 and is able to read and write. It is the key for socio- economic progress in a State. "
       },
     "#students-100-people":
       {
@@ -34,17 +34,17 @@ display =
     "pucca-building-type-schools-percentage":
       {
         "title":"Schools built of concrete",
-        "description": "Pucca (in Hindi) refers to the concrete buildings. So, this attribute refers to the schools percentage which are made of concrete."
+        "description": "This attribute refers to the schools percentage which are made of concrete."
       },
     "toilet-facility-schools-percentage":
       {
         "title":"Availability of toilets in schools",
-        "description": "Toilet facility's availability  in schools"
+        "description": "Toilet facility availability  in schools"
       },
     "Trained-teachers-percentage":
       {
         "title":"Number of trained taechers",
-        "description": "Trained teachers refers to the teachers with minimum required qualification like Msc (Master of Science), Med (Master of Education), Mphil (Master of Philosophy), Phd (Doctor of Philosophy) etc. Sometimes, schools are even deprived of the teacher with such qualifications. Trained teachers in turn affect the quality of education provided (like how good they are teaching stuff to the students)."
+        "description": "Trained teachers refers to the teachers with required qualification like Msc (Master of Science), Med (Master of Education), Mphil (Master of Philosophy), Phd (Doctor of Philosophy) etc for the respective standard of students. Sometimes, schools are even deprived of the teacher with such qualifications. Trained teachers in turn affect the quality of education provided (like how good they are teaching stuff to the students)."
       },
     "play-ground-school-percentage":
       {
@@ -54,7 +54,7 @@ display =
     "#schools-100-people":
       {
         "title":"Number of schools",
-        "description": "It shows the number of schools in each state which can acommodate atleast 100 students."
+        "description": "Number of schools per 100 people of age between 3 and 20. People usually go to school between the age 3 and 20 and are the expected number of students. Because populated states would naturally tend to have higher values and so it is normalized."
       },
     "hand-wash-facility-percentage":
       {
@@ -84,22 +84,22 @@ display =
     "School-drop-out-percentage":
       {
         "title": " Schools drop out percentage",
-        "description": "Students who discontinue their studies due to some reasons. It does not include students who actually fail in their grades. It may connect to the quality of life in that region."
+        "description": "Students who discontinue their studies due to some reasons. It does not include students who actually fail in their grades. For a better standard, this value should be as minimum as possible. States which have dark background are performing bad. So don't get mislead with this info."
       },
     "electricity-connection-school-percentage":
       {
         "title":" Presence of electricity facility.",
-        "description": "So, the facilities like toilet facility, drinking water facility, hand wash facility, electricity   connection and boundary wall are all basic facilities which are ideally expected to be present in a school."
+        "description": "Presence of proper and good electricity facility."
       },
     "text-books-received-schools-percentage":
       {
         "title":"Facility of providing text books  to schools",
-        "description": "Text books provided to students in schools. It encompasses Govt role in the sense that Govt ensures to take care of the funds to ensure that all students get study material. "
+        "description": "Text books provided to students in schools. It encompasses Govt role in the sense that it ensures to take care of the funds so that students get study material for free. "
       },
     "private-schools-percentage":
       {
         "title":"Numbr of private schools",
-        "description": "rivate schools on the other hand are usually in English medium, higher fees and very less Government involvement. "
+        "description": "Private schools are usually in English medium, higher fees and very less Government involvement. "
       }
   }
 

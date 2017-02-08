@@ -82,14 +82,13 @@ display =
     },
     "School-drop-out-percentage":
       {
-        "title":2) Schools drop out percentage",
+        "title": " Schools drop out percentage",
         "description": "Students who discontinue their studies due to some reasons. It does not include students who actually fail in their grades. It may connect to the quality of life in that region."
       },
     "electricity-connection-school-percentage":
       {
-        "title":"Presence of electricity facility.",
-        "description": "So, the facilities like toilet facility, drinking water facility, hand wash facility, electricity   connection and boundary wall are all basic facilities which are ideally expected to be present
-  in a school."
+        "title":" Presence of electricity facility.",
+        "description": "So, the facilities like toilet facility, drinking water facility, hand wash facility, electricity   connection and boundary wall are all basic facilities which are ideally expected to be present in a school."
       },
     "text-books-received-schools-percentage":
       {
@@ -102,3 +101,4 @@ display =
         "description": "rivate schools on the other hand are usually in English medium, higher fees and very less Government involvement. "
       }
   }
+
